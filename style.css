@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: white;
+
+}
+.navbar{
+    width: 100%;
+    height: 124px;
+    background-color: #1e1e38;
+}
+.container{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 80px;
+    height: 70px;
+}
+.menu{
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+}
+.menu span{
+    width: 30px;
+    height: 4px;
+    background-color: white;
+
+}
+.hero{
+    width: 100%;
+    height: 503px;
+    background-color:white;
+    position: relative;
+}
+.profile{
+    width: 530px;
+    height: 530px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.content{
+    width: 100%;
+    background-color: white;
+}
